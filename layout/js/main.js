@@ -1,18 +1,4 @@
 /* settings block start */
-var settings_block = '<div id="color_picker" class="block_color_picker">\
-    	<div class="picker_skin">\
-        	<p>Base skins</p>\
-            <div class="picker_line"></div>\
-            <div class="picker_select">\
-            	<select class="settings_custom_select">\
-                	<option value="0">Normal</option>\
-                    <option value="1">Boxed</option>\
-                </select>\
-            </div>\
-        </div>\
-        <a href="javascript:void(0)" id="picker_close"><img src="settings/images/trans.gif" alt="Close" title="Close" /></a>\
-    </div>';
-$(function(){$('body').append(settings_block);});
 document.write('<link rel="stylesheet" href="settings/style.css" type="text/css">');
 document.write('<script type="text/javascript" src="settings/js/jquery.cookies.min.js"></script>');
 document.write('<script type="text/javascript" src="settings/js/main.js"></script>');
