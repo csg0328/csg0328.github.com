@@ -1,658 +1,293 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap_blue.css"/>
+<script src="jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
 <title>河北千山实业集团</title>
-
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
-
-<!--[if lt IE 9]>
-<script type="text/javascript" src="layout/plugins/html5.js"></script>
-<![endif]-->
-
-<link rel="stylesheet" href="layout/style.css" type="text/css" />
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
-<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css" />
-<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic" rel="stylesheet" type="text/css" />
-
-<script type="text/javascript" src="layout/js/jquery.js"></script>
-
-<!-- PrettyPhoto start -->
-<link rel="stylesheet" href="layout/plugins/prettyphoto/css/prettyPhoto.css" type="text/css" />
-<script type="text/javascript" src="layout/plugins/prettyphoto/jquery.prettyPhoto.js"></script>
-<!-- PrettyPhoto end -->
-
-<!-- jQuery tools start -->
-<script type="text/javascript" src="layout/plugins/tools/jquery.tools.min.js"></script>
-<!-- jQuery tools end -->
-
-<!-- Calendar start -->
-<link rel="stylesheet" href="layout/plugins/calendar/calendar.css" type="text/css" />
-<script type="text/javascript" src="layout/plugins/calendar/calendar.js"></script>
-<!-- Calendar end -->
-
-<!-- ScrollTo start -->
-<script type="text/javascript" src="layout/plugins/scrollto/jquery.scroll.to.min.js"></script>
-<!-- ScrollTo end -->
-
-<!-- MediaElements start -->
-<link rel="stylesheet" href="layout/plugins/video-audio/mediaelementplayer.css" />
-<script src="layout/plugins/video-audio/mediaelement-and-player.js"></script>
-<!-- MediaElements end -->
-
-<!-- FlexSlider start -->
-<link rel="stylesheet" href="layout/plugins/flexslider/flexslider.css" type="text/css" />
-<script type="text/javascript" src="layout/plugins/flexslider/jquery.flexslider-min.js"></script>
-<!-- FlexSlider end -->
-
-<!-- iButtons start -->
-<link rel="stylesheet" href="layout/plugins/ibuttons/css/jquery.ibutton.css" type="text/css" />
-<script type="text/javascript" src="layout/plugins/ibuttons/lib/jquery.ibutton.min.js"></script>
-<!-- iButtons end -->
-
-<!-- jQuery Form Plugin start -->
-<script type="text/javascript" src="layout/plugins/ajaxform/jquery.form.js"></script>
-<!-- jQuery Form Plugin end -->
-
-<script type="text/javascript" src="layout/js/main.js"></script>
-
-<script type="text/javascript">
-	jQuery(function () {
-	});
-</script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<style type="text/css">
+.mkbjspan {
+	background-image: url(bootstrap/img/mkbt.jpg);
+	height: 58px;
+	width: 164px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+}
+.jujiao {
+	text-align:left;
+}
+.jujiao li{
+	line-height:26px;
+	height:26px;
+	border-bottom:1px dotted #999999;
+	width:386px
+}
+.jujiao span.date{
+	float:right;
+	color:#155BBB;
+	list-style-position: inside;
+	list-style-type: circle;
+}
+</style></head>
 
 <body>
-	<div class="wrapper sticky_footer">
-    	<!-- HEADER BEGIN -->
-        <header>
-            <div id="header">
-            	<section class="top">
-                	<div class="inner">
-                    	<div class="fl">
-                        	<div class="block_top_menu">
-                            	<ul>
-                                	<li class="current"><a href="index.html">首页</a></li>
-                                    <li><a href="#">网站地图</a></li>
-                                    <li><a href="">业务领域</a></li>
-                                    <li><a href="">联系我们</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="fr">
-                          <div class="block_social_top">
-                       	  <ul>
-                                	<li><a href="#" class="fb">Facebook</a></li>
-                                    <li><a href="#" class="tw">Twitter</a></li>
-                                    <li><a href="#" class="rss">RSS</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                    	<div class="clearboth"></div>
-                    </div>
-                </section>
-                
-            	<section class="bottom">
-                	<div class="inner">
-                    	<div id="logo_top"><a href="index.html"><img src="images/logo_top.png" alt="河北千山实业集团" title="河北千山实业集团" /></a></div>
-                        
-                        <div class="block_today_date">
-                        	<div class="num"><p id="num_top" /></div>
-                            <div class="other">
-                            	<p class="month_year"><span id="month_top"></span>, <span id="year_top"></span></p>
-                                <p id="day_top" class="day" />
-                            </div>
-                        </div>
-                        
-                        <div class="fr">
-                        	<div class="block_languages">
-                        	  <div class="clearboth"></div>
-                            </div>
-                            
-                            <div class="block_search_top">
-                            	<form action="#" />
-                                	<div class="field"><input type="text" class="w_def_text" title="请输入搜索关键字" /></div>
-                                    <input type="submit" class="button" value="Search" />
-                                    
-                                    <div class="clearboth"></div>
-                                </form>
-                            </div>
-                        </div>
-                        
-                        <div class="clearboth"></div>
-                    </div>
-                </section>
-                
-                <section class="section_main_menu">
-                	<div class="inner">
-                    	<nav class="main_menu">
-                        	<ul>
-								<li class="current_page_item"><a href="index.html">首页</a>
-                                </li>
-							  	<li><a href="">关于千山</a>
-                                <ul>
-                                    	<li><a href="">集团简介</a></li>
-                                        <li><a href="">组织架构</a></li>
-                                    </ul>
-                                </li>
-							  	<li><a href="">新闻资讯</a>
-                                <ul>
-                              <li><a href="">集团新闻</a></li>
-                                <li><a href="">子公司新闻</a></li>
-                                </ul>
-                              </li>
-							  	<li><a href="">产品与服务</a>
-                                 <ul>
-                              <li><a href="">矿产</a></li>
-                                <li><a href="">建材</a></li>
-                                </ul>
-                                </li>
-							  	<li><a href="">社会责任</a>
-                                	
-                                    <ul>
-                                    	<li><a href="">服务社会</a></li>
-                                        <li><a href="">回报社会</a></li>
-                                    </ul>
-                                </li>
-							  	<li><a href="#">文化千山</a>
-                                	
-                                    <ul>
-                                    	<li><a href="">创新文化</a></li>
-                                        <li><a href="">和谐文化</a></li>
-                                        <li><a href="">文化活动</a></li>
-                                    </ul>
-                                </li>
-							  	<li><a href="">人才招聘</a>
-                                	
-                                    <ul>
-                                    	<li><a href="">人才观</a></li>
-                                        <li><a href="">人才政策</a></li>
-                                        <li><a href="">招聘信息</a></li>
-                                    </ul>
-                                </li>
-		  		  		  		<li><a href="">联系我们</a>
+<div class="container-fluid" >
+<div  class="row-fluid" style="padding-top:20px; padding-bottom:10px;">
+
+<div class="span8">
+<div class="logo"><a href="index.html"><img src="bootstrap/img/logo.png" alt=""></a></div>
+		</div>
+		<div class="span4" style="text-align:right">
+        <i class="icon-home"></i>设为首面|<i class="icon-star"></i>收藏本站
+		</div>
+</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav">
+								<li class="active">
+									<a href="#">首页</a>
 								</li>
-						  </ul>
-						</nav>
-                    </div>
-                </section>
-                
-                <section class="section_big_dropdown">
-                	
-              	</section>
-                
-                <section class="section_secondary_menu">
-                	<div class="inner">
-                    	<nav class="secondary_menu">
-                        	<ul>
-                                <li><a href="">热点产品</a></li>
-                                <li><a href="">热点视频</a></li>
-                                <li><a href="">热点图片</a></li>
-                                <li><a href="">热点新闻</a></li>
-                          	</ul>
-                        </nav>
-                        
-                        <div class="block_clock">
-                        	<p>时间: <span id="time"></span></p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </header>
-    	<!-- HEADER END -->
-        
-        <!-- CONTENT BEGIN -->
-        <div id="content" class="right_sidebar">
-        	<div class="inner">
-            	<div class="general_content">
-                	<div class="main_content">
-                    	<div class="block_special_topic">
-                        	<div class="type">
-                        	  <p>最新公告</p></div>
-                            <div class="title"><p><a href="#">集团网站即将改版，敬请期待……</a></p></div>
-                        </div>
-                        <div class="separator" style="height:17px;"></div>
-                        
-                        <div class="block_home_slider">
-                        	<div id="home_slider" class="flexslider">
-                            	<ul class="slides">
-                                	<li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_1.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">核心理念：和谐千山，志存高远</p>
-                                                <p>"和谐千山，志存高远"
-是"千山人"特有的精神气概，所有"千山人"以此为最高价值判断和追求，它是"千山人"士气高昂、携手并进，攀登事业高峰奋力拼搏，永不枯竭的原动力；核心理念是千山集团永远不败的哲学思想，是检验一切事务是与非的标准。只有秉承"和谐千山，志存高远"的信念，才能永葆企业创新的活力，才能实现健康和谐、永续经营的长远目标。</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_2.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">经营理念：益取四方，八方聚才</p>
-                                                <p>"益取四方"代表千山集团积极开拓市场，不断拓展新资源、追求事业新高的经营过程。
-"八方聚才"明确了千山集团把"人才战略"作为第一资本的经营战略。</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_3.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">管理理念：制度化，人本化，精细化</p>
-                                                <p>"制度化"是千山集团实施法治管理的体现。
-"人本化"是指把人作为管理的出发点和归宿点，以此为管理的指导思想和核心。
-"精细化"是一种全面化的管理模式。</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_4.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">千山文化观： 和山盈水，山水相济，有生于无，合众永生</p>
-                                                <p>千山众岳，山石耸立，树木葱生，百草丰茂……有山，有水，则山高水旺，百事兴盛。千山人是山，千山文化是水，山有形，而水无状，万物生于有，而有生于无，山水乃兴旺之本。水随山转，山因水动，和谐相济。此为智者越千重山，行万里路，志存高远的永生之道。</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <script type="text/javascript">
-								$(function () {
-									$('#home_slider').flexslider({
-										animation : 'slide',
-										controlNav : true,
-										directionNav : true,
-										animationLoop : true,
-										slideshow : false,
-										useCSS : false
-									});
-									
-								});
-							</script>
-                        </div>
-                        
-                        <div class="line_2" style="margin:34px 0px 28px;"></div>
-                    <h3 style="font-size:16px;">新闻资讯</h3>
-                        <div class="line_4" style="margin:-4px 0px 18px;"></div>
-                        
-                        <div class="block_topic_news">
-                        	<article class="block_topic_post">
-                            	<p class="title"><a href="">集团组织义务植树活动</a></p>
-                                <div class="f_pic"><a href="" class="general_pic_hover scale"><img src="images/pic_home_main_news_1.jpg" alt="" /></a></div>
-                                <p class="text">三月下旬、四月上旬，集团机关、千山矿业、纺织公司、中晶公司干部职工500余人由集团办公室统一组织，在千山大厦物业……</p>
-                                <div class="info">
-                                	<div class="date"><p>2013-03-05</p></div>
-                                    
-                                    <div class="r_part"><a href="#" class="views">183</a>
-                                    </div>
-                                </div>
-                            </article>
-                            
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="">集团隆重举办第二十届焰火艺术节</a></p>
-                                <div class="f_pic"><a href="" class="general_pic_hover scale"><img src="images/pic_home_main_news_2.jpg" alt="" /></a></div>
-                                <p class="text">2013年3月4日晚，一场主题为《祈福千山春意浓》的大型晚会，拉开了千山实业集团第二十届焰火艺术节的帷幕。</p>
-                                <div class="info">
-                                	<div class="date"><p>2013-03-04</p></div>
-                                    
-                                    <div class="r_part"><a href="#" class="views">183</a>
-                                    </div>
-                                </div>
-                            </article>
-                            
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="">2013年庆功表模暨经济工作会</a></p>
-                                <div class="f_pic"><a href="" class="general_pic_hover scale"><img src="images/pic_home_main_news_3.jpg" alt="" /></a></div>
-                                <p class="text">2013年2月27日上午10点，千山实业集团在纺织公司五楼会议室召开庆功表模暨经济工作会……</p>
-                                <div class="info">
-                                	<div class="date">
-                                	  <p>2013-02-08</p></div>
-                                    
-                                    <div class="r_part"><a href="#" class="views">183</a>
-                                    </div>
-                                </div>
-                            </article>
-                            
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="">2012年度股东大会</a></p>
-                                <div class="f_pic"><a href="" class="general_pic_hover scale"><img src="images/pic_home_main_news_4.jpg" alt="" /></a></div>
-                                <p class="text">1月26日，千山实业集团在纺织公司五楼隆重召开2012年度股东代表大会……</p>
-                                <div class="info">
-                                	<div class="date"><p>2012-01-26</p></div>
-                                    
-                                    <div class="r_part"><a href="#" class="views">183</a>
-                                    </div>
-                                </div>
-                            </article>
-                            
-                        </div>
-                        
-                        <div class="line_3" style="margin:20px 0px 24px;"></div>
-                        
-                        <div class="block_pager">
-                        	<a href="#" class="prev">Previous</a>
-                            <a href="#" class="next">Next</a>
-                            
-                            <div class="pages">
-                            	<ul>
-                                	<li class="current"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li><a href="#">6</a></li>
-                                </ul>
-                            </div>
-                            
-                            <div class="clearboth"></div>
-                        </div>
-                        
-                        <div class="line_2" style="margin:24px 0px 35px;"></div>
-                        
-                        <h3 style="font-size:16px;">业务领域</h3>
-                        <div class="line_4" style="margin:-4px 0px 18px;"></div>
-                        
-                        <div class="block_best_materials">
-                        	<div class="slider">
-                                <div id="best_materials_slider" class="flexslider">
-                                    <ul class="slides">
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="" class="w_hover"><img src="images/pic_home_best_materials_1.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="">矿产</a></p>
-												
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="" class="w_hover"><img src="images/pic_home_best_materials_2.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="">建筑</a></p>
-                  
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="" class="w_hover"><img src="images/pic_home_best_materials_3.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="">纺织</a></p>
-     
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="" class="w_hover"><img src="images/pic_home_best_materials_4.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="">房地产</a></p>
-
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="" class="w_hover"><img src="images/pic_home_best_materials_5.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="">服务</a></p>
-
-                                            </div>
-                                        </li>
-                                        
+                                <li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">走进千山<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">总裁致辞</a></li>
+                                        <li><a href="#">集团简介</a></li>
+                                        <li><a href="#">组织架构</a></li>
+                                        <li><a href="#">集团荣誉</a></li>
+                                        <li><a href="#">董事长简介</a></li>
+                                        <li><a href="#">董事长荣誉</a></li>
+                                        <li><a href="#">子属产业</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">新闻中心<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">集团新闻</a>
+										</li>
+										<li>
+											<a href="#">总裁新闻</a>
+										</li>
+										<li>
+											<a href="#">下属公司新闻</a>
+										</li>
+									</ul>
+								</li>
+                                <li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">放下产业<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">北京千山天利国际投资发展有限公司</a></li>
+                                        <li><a href="#">北京高玛北方投资有限公司</a></li>
+                                        <li><a href="#">内蒙古呼伦贝尔市绰尔矿业开发有限公司</a></li>
+                                        <li><a href="#">内蒙古牙克石市鸣鑫矿业有限公司</a></li>
+                                        <li><a href="#">辽宁省大石桥市千山旺钰矿业有限公司</a></li>
+                                        <li><a href="#">山东省莱芜市康华矿业有限公司</a></li>
+                                        <li><a href="#">山东省平阴县洪范池矿业有限公司</a></li>
+                                        <li><a href="#">河北千山中晶玻璃制品有限公司</a></li>
+                                        <li><a href="#">沙河市千山矿业有限公司</a></li>
+                                        <li><a href="#">沙河市千山房地产开发有限公司</a></li>
+                                        <li><a href="#">沙河市千山纺织有限公司</a></li>
+                                        <li><a href="#">沙河市永利贸易有限责任公司</a></li>
+                                        <li><a href="#">沙河市千山物业管理有限公司</a></li>
+                                        <li><a href="#">沙河市千山大酒店有限公司</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                            
-                            <script type="text/javascript">
-								$(function() {
-									$('#best_materials_slider').flexslider({
-										animation : 'slide',
-										controlNav : false,
-										directionNav : true,
-										animationLoop : false,
-										slideshow : false,
-										itemWidth: 213,
-										itemMargin: 0,
-										minItems: 1,
-										maxItems: 3,
-										move: 1,
-										useCSS : false
-									});
-								});
-							</script>
-                        </div>
-                        
-                        <div class="line_2" style="margin:20px 0px 0px;"></div>
-                        
-                    </div>
-                    
-                    <div class="sidebar">
-                    	<div class="block_subscribes_sidebar">
-                        	<div class="service">
-                            	<a href="#" class="rss">
-                                	<span class="num">11 234</span>
-                                    <span class="people">Subscribers</span>
-                                </a>
-                            </div>
-                            
-                            <div class="service">
-                            	<a href="#" class="tw">
-                                	<span class="num">781</span>
-                                    <span class="people">Followers</span>
-                                </a>
-                            </div>
-                    	</div>
-                        
-                      <div class="separator" style="height:31px;"></div>
-                        
-                        <div class="block_popular_posts">
-                        	<h4>千山杂志</h4>
-                            
-                        	<div class="article">
-								<div class="pic">
-									<a href="#" class="w_hover">
-										<img src="images/pic_popular_post_1.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="#">千山人 第九期</a></p>
-									<div class="date">
-								  <p>2013-05-01</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">41</a></li>
-                                    	</ul>
-                                    </div>
-								</div>
-							</div>
-							<div class="line_3"></div>
-                            
-                            <div class="article">
-								<div class="pic">
-									<a href="#" class="w_hover">
-										<img src="images/pic_popular_post_1.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="#">千山人 第八期</a></p>
-									<div class="date"><p>2013-05-01</p>
-									</div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">24</a></li>
-                                    	</ul>
-                                    </div>
-								</div>
-							</div>
-							<div class="line_3"></div>
-                            
-                            <div class="article">
-								<div class="pic">
-									<a href="#" class="w_hover">
-										<img src="images/pic_popular_post_1.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="#">千山人 第七期</a></p>
-									<div class="date"><p>2013-05-01</p>
-									</div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">33</a></li>
-                                    	</ul>
-                                    </div>
-								</div>
-							</div>
-							<div class="line_2"></div>
-                        </div>
-                        
-                        <div class="separator" style="height:31px;"></div>
-                        
-                        <div class="block_popular_stuff">
-                        	<h4>千山视频</h4>
-                            
-                            <div class="content">
-                            	<a href="#" class="view_all">更多视频</a>
-                            	<div class="media"><img src="images/pic_pop_video.jpg" alt="" /></div>
-                                <p><a href="">10千山走过20年文艺演出</a> <img src="images/icon_video.gif" alt="" /></p>
-                                <p class="date">2013-05-02</p>
-                            </div>
-                            
-                            <div class="info">
-                            	<ul>
-                                	<li class="comments"></li>
-                                    <li class="views"><a href="#">220</a></li>
-                                </ul>
-                            </div>
-                            
-                            <div class="clearboth"></div>
-                            
-                            <div class="line_2"></div>
-                        </div>
-                        
-                        <div class="separator" style="height:31px;"></div>
-                        
-                        <div class="block_calendar">
-                        	<h4>日历</h4>
-                            
-                            <div class="calendar" id="calendar_sidebar">
-                            </div>
-                            
-                            <script type="text/javascript">
-								var today = new Date();
-								var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-								$('#calendar_sidebar').DatePicker({
-									flat : true,
-									date : date,
-									calendars : 1,
-									starts : 1,
-									locale : {
-										days : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-										daysShort : ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-										daysMin : ['S', 'M', 'T', 'W', 'T', 'F', 'S', 'S'],
-										months : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-										monthsShort : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-										weekMin : 'wk'
-									}
-								});
-							</script>
-                            
-                            <div class="line_2"></div>
-                        </div>
-                    <div class="separator" style="height:31px;"></div>
-                        
-                        <div class="block_popular_stuff">
-                        	<h4>精彩图片</h4>
-                            
-                            <div class="content">
-                           	  <a href="#" class="view_all">更多图片</a>
-                            	<div class="media"><a href="images/pic_pop_photo_big.jpg" class="general_pic_hover zoom no_fx" data-rel="prettyPhoto" title="Popular Photo"><img src="images/pic_pop_photo.jpg" alt="" /></a></div>
-                                <p><a href="">XXX工程现场</a> <img src="images/icon_photo.gif" alt="" /></p>
-                                <p class="date">2013-05-03</p>
-                    </div>
-                            
-                            <div class="info">
-                            	<ul>
-                                	<li class="comments"></li>
-                                    <li class="views"><a href="#">134</a></li>
-                                </ul>
-                            </div>
-                            
-                            <div class="clearboth"></div>
-                            
-                            <div class="line_2"></div>
-                        </div>
-                        
-                      	<div class="separator" style="height:31px;"></div>
-                    </div>
-                    
-                	<div class="clearboth"></div>
-                </div>
-            </div>
-        </div>
-    	<!-- CONTENT END -->
-        
-        <!-- FOOTER BEGIN -->
-        <footer>
-            <div id="footer">
-            	<section class="top">
-                	<div class="inner">
-                    	<div id="logo_bottom"><a href="index.html"><img src="images/logo_bottom.png" alt="" /></a></div>
-                        
-                        <div class="block_to_top">
-                        	<a href="#">反回顶部</a>
-                        </div>
-                    </div>
-                </section>
-            	<section class="bottom">
-               	  <div class="inner">
-                    	<div class="line_1"></div>
-                        
-                        <div class="fr">
-                        	<div class="block_menu_footer">
-                            	<ul>
-                                	<li><a href="">关于千山</a></li>
-                                    <li><a href="">业务领域</a></li>
-                                    <li><a href="">网站地图</a></li>
-                                    <li><a href="">联系我们</a></li>
-                                </ul>
-                            </div>
-                            
-                            <div class="block_social_footer">
-                            	<ul>
-                                	<li><a href="#" class="fb">Facebook</a></li>
-                                    <li><a href="#" class="tw">Twitter</a></li>
-                                    <li><a href="#" class="rss">RSS</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="block_copyrights">
-                          <p>&copy; 2013 千山集团版权所有.</p></div>
-                    </div>
-                </section>
-            </div>
-        </footer>
-        <!-- FOOTER END -->
-    </div>
-    
-    
-</body>
+								</li>
+                                <li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">文化千山<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">创新文化</a></li>
+                                        <li><a href="#">登山文化</a></li>
+                                        <li><a href="#">和谐文化</a></li>
+                                        <li><a href="#">滚石理论</a></li>
+                                        <li><a href="#">千山理念</a></li>
+                                        <li><a href="#">千山人</a></li>
+                                        <li><a href="#">千山报</a></li>
+                                        <li><a href="#">视觉形象</a></li>
+                                        <li><a href="#">和谐千山</a></li>
+                                        <li><a href="#">文化活动</a></li>
+                                    </ul>
+								</li>
+                                <li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">八力资源<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">人才观</a>
+										</li>
+										<li>
+											<a href="#">人才政策</a>
+										</li>
+										<li>
+											<a href="#">在线招聘</a>
+										</li>
+									</ul>
+								</li>
+                                 <li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">服务专区<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">企业名片</a>
+										</li>
+										<li>
+											<a href="#">联系我们</a>
+										</li>
+										<li>
+											<a href="#">网站地图</a>
+										</li>
+									</ul>
+								</li>
+                                <li><a href="#">董事长信箱</a></li>
+							</ul>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="carousel slide" id="carousel-700177">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-700177">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-700177">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-700177">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img alt="" src="bootstrap/img/1.jpg" />
+						<div class="carousel-caption">
+						  <h4>
+								核心理念：和谐千山，志存高远
+						  </h4>
+							<p>
+								"和谐千山，志存高远"
+是"千山人"特有的精神气概，所有"千山人"以此为最高价值判断和追求，它是"千山人"士气高昂、携手并进，攀登事业高峰奋力拼搏，永不枯竭的原动力；核心理念是千山集团永远不败的哲学思想，是检验一切事务是与非的标准。只有秉承"和谐千山，志存高远"的信念，才能永葆企业创新的活力，才能实现健康和谐、永续经营的长远目标。
+							</p>
+						</div>
+					</div>
+					<div class="item">
+					  <img alt="" src="bootstrap/img/2.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								管理理念：制度化，人本化，精细化
+							</h4>
+							<p>
+								"制度化"是千山集团实施法治管理的体现。
+"人本化"是指把人作为管理的出发点和归宿点，以此为管理的指导思想和核心。
+"精细化"是一种全面化的管理模式。
+							</p>
+						</div>
+					</div>
+					<div class="item">
+					  <img alt="" src="bootstrap/img/3.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								经营理念：益取四方，八方聚才
+							</h4>
+							<p>
+								"益取四方"代表千山集团积极开拓市场，不断拓展新资源、追求事业新高的经营过程。
+"八方聚才"明确了千山集团把"人才战略"作为第一资本的经营战略。
+							</p>
+						</div>
+					</div>
+				</div> <a data-slide="prev" href="#carousel-700177" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-700177" class="right carousel-control">›</a>
+			</div>
+		</div>
+	</div>
+  <div class="row-fluid" style="height: 10px; background-image:url(bootstrap/img/lhx.jpg);"></div>
+	<div class="row-fluid" style="background-color:#F6F6F6; 0px;18px;0px;padding-top: 33px;">
+	  <div class="span4"><img src="bootstrap/img/gsjj.gif" width="164" height="58" />
+	    <table width="343" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+  <tr>
+    <td align="left" style="padding-right:20px;padding-top:20px"><p>
+	<img align="left" alt="" src="bootstrap/img/jtjj.jpg" style="width: 71px; height: 86px; margin-right: 10px">&nbsp;&nbsp;&nbsp;&nbsp;千山实业集团是一家以矿业为主导产业，集投资、建材、纺织、房地产、服务为一体的跨区域、多元化发展的现代企业集团。集团分布在河北、内蒙、山东等地，总部设在北京。千山实业集团现有员工10000余人，拥有矿井15座，选矿厂10个，年产铁矿石260万吨，铁精粉100万吨；拥有8万环锭纺，年纺纱1万吨。总资产达35亿元。</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;集团下属14家子公司：北京高玛北方投资有限公司、河北千山中晶玻璃制品有限公司、河北骏威工贸有限公司、沙河市千山矿业有限责任公司、沙河市千山纺织有……<a href="">[详细]</a></p></td>
+  </tr>
+</tbody></table></div>
+		<div class="span4">
+			<img src="bootstrap/img/ywly.gif" width="164" height="58" />
+<ul class="thumbnails" style="text-align:center">
+		  <li class="span6">
+					<div class="thumbnail">
+						<img alt="300x200" src="bootstrap/img/kc.jpg" />
+						<div class="caption">
+						  <h4>
+								矿产
+							</h4>
+						</div>
+					</div>
+		</li>
+				<li class="span6">
+					<div class="thumbnail">
+						<img alt="300x200" src="bootstrap/img/jc.jpg" />
+						<div class="caption">
+						  <h4>
+								建材</h4>
+						</div>
+					</div>
+		  </li></ul>
+                <ul class="thumbnails" style="text-align:center">
+				<li class="span6">
+					<div class="thumbnail">
+						<img alt="300x200" src="bootstrap/img/fz.jpg" />
+						<div class="caption">
+						  <h4>纺织
+							</h4>
+						</div>
+					</div>
+				</li>
+                <li class="span6">
+					<div class="thumbnail">
+						<img alt="300x200" src="bootstrap/img/fdc.jpg" />
+						<div class="caption">
+						  <h4>房地产</h4>
+						</div>
+					</div>
+				</li>
+			</ul>
+	  </div>
+		<div class="span4">
+	        <img src="bootstrap/img/xwdt.gif" width="164" height="58" />
+			<ul class="jujiao"> 
+<li><span class="date">(2013/04/27)</span><a href="#" title="同心共筑千山梦—— 集团隆重举办迎"五一"文艺晚会" target="_blank">同心共筑千山梦集团隆重举办迎"五一</a></li>
+ 
+<li><span class="date">(2013/04/04)</span><a href="#" title="集团组织义务植树活动" target="_blank">集团组织义务植树活动</a></li>
+ 
+<li><span class="date">(2013/03/06)</span><a href="#" title="集团隆重举办第二十届焰火艺术节" target="_blank">集团隆重举办第二十届焰火艺术节</a></li>
+ 
+<li><span class="date">(2013/02/28)</span><a href="#" title="千山实业集团召开2013年庆功表模暨经济工作会" target="_blank">集团召开2013年庆功表模暨经济工</a></li>
+ 
+<li><span class="date">(2013/01/30)</span><a href="#" title="集团召开2012年度股东大会" target="_blank">集团召开2012年度股东大会</a></li>
+<li><span class="date">(2013/04/27)</span><a href="#" title="同心共筑千山梦—— 集团隆重举办迎"五一"文艺晚会" target="_blank">同心共筑千山梦集团隆重举办迎"五一</a></li>
+ 
+<li><span class="date">(2013/04/04)</span><a href="#" title="集团组织义务植树活动" target="_blank">集团组织义务植树活动</a></li>
+ 
+<li><span class="date">(2013/03/06)</span><a href="#" title="集团隆重举办第二十届焰火艺术节" target="_blank">集团隆重举办第二十届焰火艺术节</a></li>
+ 
+<li><span class="date">(2013/02/28)</span><a href="#" title="千山实业集团召开2013年庆功表模暨经济工作会" target="_blank">集团召开2013年庆功表模暨经济工</a></li>
+ 
+<li><span class="date">(2013/01/30)</span><a href="#" title="集团召开2012年度股东大会" target="_blank">集团召开2012年度股东大会</a></li>
 
+</ul>
+      <img style="margin:20px 0px 0px 20px;" src="bootstrap/img/more.gif" width="47" height="14" /></div>
+	</div>
+<div class="row-fluid" style="height: 60px; ">
+<div style="margin:20px; font-size:26px;"><strong><font color="#0063E5" >相关链接：</font></strong><img style="margin-right:40px;" src="bootstrap/img/qianshanren.jpg" width="202" height="34" /><img style="margin-right:40px;" src="bootstrap/img/qianshanbao.jpg" width="202" height="34" /><img style="margin-right:40px;" src="bootstrap/img/mail.jpg" width="202" height="34" /><img style="margin-right:40px;" src="bootstrap/img/jituanrongyu.jpg" width="202" height="34" /></div>
+</div>
+<div class="row-fluid" style="height: 30px; background-color:#0064E6;text-align:center; color:#FFF">
+<p style="margin-top:5px;">公司简介  |      企业文化  |      集团动态      |  招聘动态  |      联系我们</p>   
+</div>
+<div class="row-fluid" style="height: 30px; margin-top:20px; text-align:center;">河北千山实业集团版权所有</div>
+</div>
+</body>
 </html>
