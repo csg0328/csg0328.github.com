@@ -3452,7 +3452,7 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, #0065dd, #0B4DBB);
   background-image: linear-gradient(to bottom, #0065dd, #0B4DBB);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);*/
   border: 1px solid #045dd8;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -3674,7 +3674,7 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, #90BCF5, #0d6fed);
   background-image: linear-gradient(to bottom, #90BCF5, #0d6fed);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+ /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);*/
   border: 1px solid #0d6fed;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
